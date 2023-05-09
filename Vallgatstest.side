@@ -1,0 +1,1104 @@
+{
+  "id": "33a38360-2253-4a92-a2f7-9af4514f30b1",
+  "version": "2.0",
+  "name": "Vallgats",
+  "url": "https://vallsgat.weebly.com/",
+  "tests": [{
+    "id": "3f44d840-771c-4f02-bbaa-db639022e5f1",
+    "name": "TC-96 Entran en la web Vallgats",
+    "commands": [{
+      "id": "1393f22e-2d4c-4e05-bc06-d1c91d80276e",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bb2c4b9-124e-4e40-bf46-4f3ec2a16100",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61d343b4-4748-40d4-9425-3a7fa0702b66",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=wsite-title",
+      "targets": [],
+      "value": "VALLSGAT"
+    }, {
+      "id": "3cd35215-a41c-4e8c-b716-fb5bf6665287",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e61651ad-1c09-4e2b-925f-333dd5edd0e8",
+    "name": "TC-103 Comprobar los enlaces del menu",
+    "commands": [{
+      "id": "1d5e16d5-a534-462f-9ac2-23039b459f2b",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bafecf1d-cd25-4303-a892-2a8dd48a62c2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51e5892f-eb36-45d0-bf46-1baf9d36c9c6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#nav #active > .wsite-menu-item",
+      "targets": [],
+      "value": "QUIÉNES SOMOS"
+    }, {
+      "id": "2abd9876-7854-4429-92e5-77119e0d49eb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#nav #pg716347823253492772 > .wsite-menu-item",
+      "targets": [],
+      "value": "CONDICIONES PARA ADOPTAR"
+    }, {
+      "id": "aa901b54-a277-4e86-bf3a-66f34f6a9c80",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#nav #pg583348935660222005 > .wsite-menu-item",
+      "targets": [],
+      "value": "GATOS EN ADOPCIÓN"
+    }, {
+      "id": "6374ddc0-6998-43ac-96b7-c35544f6d663",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#nav #pg805482084986500423 > .wsite-menu-item",
+      "targets": [],
+      "value": "PERROS EN ADOPCIÓN"
+    }, {
+      "id": "1302b8a2-c53f-4944-960d-15e36b1c2856",
+      "comment": "",
+      "command": "click",
+      "target": "id=wsite-nav-more-a",
+      "targets": [
+        ["id=wsite-nav-more-a", "id"],
+        ["css=#wsite-nav-more-a", "css:finder"],
+        ["xpath=//a[contains(text(),'más...')]", "xpath:link"],
+        ["xpath=//a[@id='wsite-nav-more-a']", "xpath:attributes"],
+        ["xpath=//div[@id='nav']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e8cd6a2-24be-479a-b6c4-99aadb0069a5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#wsite-nav-710872412567226051 .wsite-menu-title",
+      "targets": [],
+      "value": "CÓMO COLABORAR"
+    }, {
+      "id": "9842a08b-ab6e-4a79-af08-8f2c085963a8",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#wsite-nav-361332323802894182 .wsite-menu-title",
+      "targets": [],
+      "value": "CONTACTO"
+    }, {
+      "id": "2b09c048-414b-4554-a578-90d3928ecd12",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#wsite-nav-205605649705399971 .wsite-menu-title",
+      "targets": [],
+      "value": "GATOS ADOPTADOS"
+    }, {
+      "id": "94511a4b-6ded-4361-ac3c-bb1c9e0efc98",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "css=#wsite-nav-217106074966217534 .wsite-menu-title",
+      "targets": [],
+      "value": "NUEVA PÁGINA"
+    }, {
+      "id": "07cd8f9b-2c20-4c2c-8f3a-5c722a05c544",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ee1dbc09-f24d-44f0-aa1b-de781bcb15c8",
+    "name": "TC-98 Entrar condiciones para adoptar",
+    "commands": [{
+      "id": "e73d8c92-ae81-4dd8-bc06-30d32af9fe6a",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9920351-34e9-4d2d-91a1-1bc4ab44ab15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d157a06-ef29-44f5-b43b-4ab458f1baa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav #pg716347823253492772 > .wsite-menu-item",
+      "targets": [
+        ["css=#nav #pg716347823253492772 > .wsite-menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Condiciones para adoptar')]", "xpath:link"],
+        ["xpath=//li[@id='pg716347823253492772']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/condiciones-para-adoptar.html')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "935df46a-47fb-489c-8902-d6ce78898f02",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=font:nth-child(2)",
+      "targets": [],
+      "value": "NUESTRAS CONDICIONES DE ADOPCIÓN:"
+    }, {
+      "id": "3adebe4a-493f-41ca-990c-23c532d9f221",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "58a097b0-2a98-4aa7-b70f-49679622794c",
+    "name": "TC-99 Entrar en gatos en adopcion",
+    "commands": [{
+      "id": "5fc7d576-7ea8-4a15-aaba-50fb6eaff0f2",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40cd297d-3cd0-4571-8217-d1bb1346fb35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a2540a0-a507-44b3-ad5e-91cd51c8abd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav #pg583348935660222005 > .wsite-menu-item",
+      "targets": [
+        ["css=#nav #pg583348935660222005 > .wsite-menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Gatos en adopción')]", "xpath:link"],
+        ["xpath=//li[@id='pg583348935660222005']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gatos-en-adopcioacuten.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2ca4fa9-c678-4ff6-b2de-47d18c0531c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wsite-content-title:nth-child(55) font",
+      "targets": [
+        ["css=.wsite-content-title:nth-child(55) font", "css:finder"],
+        ["xpath=//div[@id='wsite-content']/h2[2]/u/font", "xpath:idRelative"],
+        ["xpath=//h2[2]/u/font", "xpath:position"],
+        ["xpath=//font[contains(.,'GATITOS RESERVADOS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c43d10b-c0c4-4eac-8489-b8766878cc76",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-content-title",
+      "targets": [
+        ["css=.wsite-content-title:nth-child(55) font", "css:finder"],
+        ["xpath=//div[@id='wsite-content']/h2[2]/u/font", "xpath:idRelative"],
+        ["xpath=//h2[2]/u/font", "xpath:position"],
+        ["xpath=//font[contains(.,'GATITOS RESERVADOS')]", "xpath:innerText"]
+      ],
+      "value": "GATITOS BUSCANDO FAMILIA"
+    }, {
+      "id": "39cf4749-2d4c-4f51-8f68-dd0ce6637524",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d251df33-a695-4eb3-9d12-2e56a9a9b3de",
+    "name": "TC-100 Entrar perros en adopcion",
+    "commands": [{
+      "id": "076fa52c-f4e7-4e30-8ef3-d90d6cb02327",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6dff399-a5f2-42fd-83a6-74f437a0a25d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4806191b-c6bb-44aa-b240-411e1e286b93",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav #pg805482084986500423 > .wsite-menu-item",
+      "targets": [
+        ["css=#nav #pg805482084986500423 > .wsite-menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Perros en adopción')]", "xpath:link"],
+        ["xpath=//li[@id='pg805482084986500423']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/perros-en-adopcioacuten.html')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ef24d67-11f6-4f69-96c0-6e4e72a337e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wsite-content > .paragraph:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6208eb3-0e4e-49f3-96d0-18f1900d93ac",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.paragraph:nth-child(3) font",
+      "targets": [],
+      "value": "PERRITOS BUSCANDO FAMILIA"
+    }, {
+      "id": "4893aca8-c4c3-4345-9bcb-73ee9776a2e4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3700abf0-c6c9-4778-9b2e-399a487ffe09",
+    "name": "TC-101 Entrar en como colaborar",
+    "commands": [{
+      "id": "f15ddf3d-eab2-49bc-8575-97f6ade4af2d",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2312ed2-c589-4e8f-b99a-ce968c91567b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99289be3-6a55-438c-904f-8ca12b552461",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=wsite-nav-more-a",
+      "targets": [
+        ["id=wsite-nav-more-a", "id"],
+        ["css=#wsite-nav-more-a", "css:finder"],
+        ["xpath=//a[contains(text(),'más...')]", "xpath:link"],
+        ["xpath=//a[@id='wsite-nav-more-a']", "xpath:attributes"],
+        ["xpath=//div[@id='nav']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27d262d4-d99d-4d65-ae37-90141617a9e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wsite-nav-710872412567226051 .wsite-menu-title",
+      "targets": [
+        ["css=#wsite-nav-710872412567226051 .wsite-menu-title", "css:finder"],
+        ["xpath=//li[@id='wsite-nav-710872412567226051']/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da9a79b9-9bca-4c83-9abc-9d8749249b3c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-content-title",
+      "targets": [],
+      "value": "CÓMO COLABORAR"
+    }, {
+      "id": "0c0dbd94-2e83-43fc-a63b-657a675bbd4d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d255eabc-fe7e-4488-944b-005d2e6e2c60",
+    "name": " TC-102 Entrar en enlace teaming de la pagina como colaborar - mobile",
+    "commands": [{
+      "id": "41ff9266-1f04-404c-9edd-47eb6ecdd3f1",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "380edacc-e8ab-4568-a504-d59746d69c5b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be5896e2-13b5-423d-af6b-f7c2117ae4e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-btn",
+      "targets": [
+        ["css=.open-btn", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc6155bc-d167-4b51-9410-07469f63822e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wsite-menu-slide > #pg710872412567226051 > .wsite-menu-item",
+      "targets": [
+        ["css=.wsite-menu-slide > #pg710872412567226051 > .wsite-menu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cómo colaborar')])[2]", "xpath:link"],
+        ["xpath=(//li[@id='pg710872412567226051']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/coacutemo-colaborar.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af3ef71-728c-47a8-91d8-46951d23ade7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=teaming.net/vallsgat",
+      "targets": [
+        ["linkText=teaming.net/vallsgat", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'teaming.net/vallsgat')]", "xpath:link"],
+        ["xpath=//div[@id='wsite-content']/div[4]/div/div/table/tbody/tr/td[2]/div[2]/font/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.teaming.net/group/list?q=Vallsgat')]", "xpath:href"],
+        ["xpath=//font/a", "xpath:position"],
+        ["xpath=//a[contains(.,'teaming.net/vallsgat')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6903",
+      "windowTimeout": 2000
+    }, {
+      "id": "1a671433-c0b7-4d4c-8bf4-0aaa65ca5240",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6903}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38f02b56-91fe-4951-b033-77f3ab47bc0b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Vallsgat - Grupos Teaming",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b7d3e78-a82b-44e6-9653-9137d55ce82e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d4398e49-1bda-4732-aa75-9aea2bff69b3",
+    "name": "TC-105 Entrar gatos adoptados",
+    "commands": [{
+      "id": "b5807bb8-aee7-47df-9363-5d1ca0a3625a",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db71d7a0-18a3-41f0-b825-cda5eb282cad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63e76476-3d66-4ca9-8331-11ceb1c34463",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav #pg583348935660222005 > .wsite-menu-item",
+      "targets": [
+        ["css=#nav #pg583348935660222005 > .wsite-menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Gatos en adopción')]", "xpath:link"],
+        ["xpath=//li[@id='pg583348935660222005']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gatos-en-adopcioacuten.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdfedc7a-feef-4810-8080-804cbe6328df",
+      "comment": "",
+      "command": "click",
+      "target": "css=#nav #active > .wsite-menu-item",
+      "targets": [
+        ["css=#nav #active > .wsite-menu-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Gatos en adopción')]", "xpath:link"],
+        ["xpath=//li[@id='active']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gatos-en-adopcioacuten.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9faef7b6-b0ed-41db-b2fc-2d575bd58ae1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-content-title:nth-child(3) font",
+      "targets": [],
+      "value": "GATITOS BUSCANDO FAMILIA"
+    }, {
+      "id": "6d707f61-b5ea-4623-83c9-48764a4d236f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d8f21198-8d6b-46ae-a2d4-8de456c8ac59",
+    "name": " TC-102 Entrar en enlace teaming de la pagina como colaborar",
+    "commands": [{
+      "id": "a20f45f1-66f1-432d-adf8-a34cd85fdd28",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afc7d41e-7dd9-41b6-a120-5f47a7620690",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "778777be-7189-423b-b643-0a1289e47b88",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=wsite-nav-more-a",
+      "targets": [
+        ["id=wsite-nav-more-a", "id"],
+        ["css=#wsite-nav-more-a", "css:finder"],
+        ["xpath=//a[contains(text(),'más...')]", "xpath:link"],
+        ["xpath=//a[@id='wsite-nav-more-a']", "xpath:attributes"],
+        ["xpath=//div[@id='nav']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa9ef5d9-e4e4-4237-a514-54b5d3df7b4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=wsite-nav-more-a",
+      "targets": [
+        ["id=wsite-nav-more-a", "id"],
+        ["css=#wsite-nav-more-a", "css:finder"],
+        ["xpath=//a[contains(text(),'más...')]", "xpath:link"],
+        ["xpath=//a[@id='wsite-nav-more-a']", "xpath:attributes"],
+        ["xpath=//div[@id='nav']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f2a8627-9b11-480c-a5f2-9288e3a74400",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wsite-nav-710872412567226051 .wsite-menu-title",
+      "targets": [
+        ["css=#wsite-nav-710872412567226051 .wsite-menu-title", "css:finder"],
+        ["xpath=//li[@id='wsite-nav-710872412567226051']/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faaffe82-4ff9-4d5b-8be2-366b0e1dcc24",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=teaming.net/vallsgat",
+      "targets": [
+        ["linkText=teaming.net/vallsgat", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'teaming.net/vallsgat')]", "xpath:link"],
+        ["xpath=//div[@id='wsite-content']/div[4]/div/div/table/tbody/tr/td[2]/div[2]/font/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.teaming.net/group/list?q=Vallsgat')]", "xpath:href"],
+        ["xpath=//font/a", "xpath:position"],
+        ["xpath=//a[contains(.,'teaming.net/vallsgat')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5666",
+      "windowTimeout": 2000
+    }, {
+      "id": "4ef146e6-cc31-4742-8220-2a9f655dc5d2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5666}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06156734-a73b-4bc5-bbb0-a170f9e8665d",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Vallsgat - Grupos Teaming",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f72a479-15d7-406b-8116-51b8c352b687",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "da284ab4-b610-4f30-8e78-3e6112befd13",
+    "name": "TC-96 Entran en la web Vallgats mobile",
+    "commands": [{
+      "id": "8a36edd5-7fe7-4c47-85ad-e0142bbc4240",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6710133b-8c73-4c73-b050-725457399b88",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18ba5f20-90f8-43b2-a93a-2737551cea9a",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=wsite-title",
+      "targets": [],
+      "value": "VALLSGAT"
+    }, {
+      "id": "f8c0aa56-07f5-4a13-b250-f42499011e11",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "19926fba-a7da-4717-a1e6-904d9f089448",
+    "name": "TC-98 Entrar condiciones para adoptar mobile",
+    "commands": [{
+      "id": "95fe76d6-590b-45b1-af2f-3ec7651f7a63",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e41b340-7986-46d6-bcfd-30ab1de0f137",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a54397a7-22d3-44ab-8961-279821abedf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-btn",
+      "targets": [
+        ["css=.open-btn", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c674717f-9d68-4f8a-b0e9-224cf74a79a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wsite-menu-slide > #pg716347823253492772 > .wsite-menu-item",
+      "targets": [
+        ["css=.wsite-menu-slide > #pg716347823253492772 > .wsite-menu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Condiciones para adoptar')])[2]", "xpath:link"],
+        ["xpath=(//li[@id='pg716347823253492772']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/condiciones-para-adoptar.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a1edcdc-0073-4fc8-9838-b4f73d49623c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=font:nth-child(2)",
+      "targets": [],
+      "value": "NUESTRAS CONDICIONES DE ADOPCIÓN:"
+    }, {
+      "id": "bb7d42c0-3adb-485a-8a23-cac833e3ab1e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2d0b05a8-c786-4481-bb19-70249bd94c4a",
+    "name": "TC-99 Entrar en gatos en adopcion mobile",
+    "commands": [{
+      "id": "5e279b1a-e620-466f-9831-cd5e9425aa78",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5695f50c-d022-469b-b28d-24df62df4f98",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63e07922-01a9-4815-8030-0802081ebf81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-btn",
+      "targets": [
+        ["css=.open-btn", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0e8450b-8b65-42c5-b9cb-12b00b1b7776",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wsite-menu-slide > #pg583348935660222005 > .wsite-menu-item",
+      "targets": [
+        ["css=.wsite-menu-slide > #pg583348935660222005 > .wsite-menu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Gatos en adopción')])[2]", "xpath:link"],
+        ["xpath=(//li[@id='pg583348935660222005']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/gatos-en-adopcioacuten.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "456a3a08-35da-476a-a493-e0748e8d2a97",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-content-title:nth-child(3) font",
+      "targets": [],
+      "value": "GATITOS BUSCANDO FAMILIA"
+    }, {
+      "id": "489ab0be-2e2c-47c6-854b-09172e1a738f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "eb11cf91-3acb-4757-979a-eaa4f4b49519",
+    "name": "TC-100 Entrar perros en adopcion mobile",
+    "commands": [{
+      "id": "9dc52bed-5a5a-4bd4-af6d-336742651be0",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00a91647-65ac-4d82-b84b-7f9d5839ab38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efab6dcf-423a-4cd4-acf2-52592686ce6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile:nth-child(2)",
+      "targets": [
+        ["css=.mobile:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e31e143-eb61-49f9-8951-5929cbfa6647",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wsite-menu-slide > #pg805482084986500423 > .wsite-menu-item",
+      "targets": [
+        ["css=.wsite-menu-slide > #pg805482084986500423 > .wsite-menu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Perros en adopción')])[2]", "xpath:link"],
+        ["xpath=(//li[@id='pg805482084986500423']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/perros-en-adopcioacuten.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24245786-0e4d-446b-a197-810d9adc0b00",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.paragraph:nth-child(3) font",
+      "targets": [],
+      "value": "PERRITOS BUSCANDO FAMILIA"
+    }, {
+      "id": "3a6c0b72-b2aa-46ec-916e-2a5707541305",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e4bb0c18-47a2-4a5d-afa2-079235496cb5",
+    "name": "TC-101 Entrar en como colaborar mobile",
+    "commands": [{
+      "id": "5eab058d-bcce-4010-bc5f-2b4b3d29a84d",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cadeb6f0-a661-4f7a-a947-3ecbf06b48c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d494d725-f2a9-4cd3-9033-1dc8dfa8bb7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-btn",
+      "targets": [
+        ["css=.open-btn", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62cd5b2b-6dc4-4bca-b1ea-002088cbfadb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wsite-menu-slide > #pg710872412567226051 > .wsite-menu-item",
+      "targets": [
+        ["css=.wsite-menu-slide > #pg710872412567226051 > .wsite-menu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cómo colaborar')])[2]", "xpath:link"],
+        ["xpath=(//li[@id='pg710872412567226051']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/coacutemo-colaborar.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcf80f42-6834-46f4-9af7-4401b1aa00f2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-content-title > font",
+      "targets": [],
+      "value": "CÓMO COLABORAR"
+    }, {
+      "id": "372a14ee-382e-45f8-89bf-108147bd83b6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "677faf92-02ce-4981-ac97-de684279c255",
+    "name": "TC-103 Comprobar los enlaces del menu mobile",
+    "commands": [{
+      "id": "e32dfc8e-ad54-4b8c-a5d0-84fcd174d0e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ec2887e-04f4-4066-8bc2-005c65e693da",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c27dfdf4-a52d-4194-9103-5cb01eebe359",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile:nth-child(3)",
+      "targets": [
+        ["css=.mobile:nth-child(3)", "css:finder"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdc4c02c-f3a7-4401-b9a7-7cdbff342764",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-menu-slide > #active > .wsite-menu-item",
+      "targets": [],
+      "value": "QUIÉNES SOMOS"
+    }, {
+      "id": "6050e461-06aa-428b-bd81-911d281e3ea8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile:nth-child(2)",
+      "targets": [
+        ["css=.mobile:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfd4c861-6260-4fd2-8cfa-1050d3256a97",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-menu-slide > #pg716347823253492772 > .wsite-menu-item",
+      "targets": [],
+      "value": "CONDICIONES PARA ADOPTAR"
+    }, {
+      "id": "abfcf3c4-f298-4ce8-a9ff-7b885961b3b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-btn",
+      "targets": [
+        ["css=.open-btn", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9308787e-ab9f-44de-9a2c-5efb5fc39813",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-menu-slide > #pg583348935660222005 > .wsite-menu-item",
+      "targets": [],
+      "value": "GATOS EN ADOPCIÓN"
+    }, {
+      "id": "5ad6c8a5-2014-4d25-abb7-489c8c85f0e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-trigger",
+      "targets": [
+        ["css=.nav-trigger", "css:finder"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93b77557-f784-452f-82f2-ed3184bd6d59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile:nth-child(2)",
+      "targets": [
+        ["css=.mobile:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d223961a-0f4f-4e66-ac5d-c30ea96aa181",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-menu-slide > #pg805482084986500423 > .wsite-menu-item",
+      "targets": [],
+      "value": "PERROS EN ADOPCIÓN"
+    }, {
+      "id": "a3c62679-45e9-41f3-b39e-e4af89f0b3f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile:nth-child(2)",
+      "targets": [
+        ["css=.mobile:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13b02e47-bf47-4987-b5e1-41bb5c4d12b2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-menu-slide > #pg710872412567226051 > .wsite-menu-item",
+      "targets": [],
+      "value": "CÓMO COLABORAR"
+    }, {
+      "id": "e7a7e12b-5036-4f5a-8b36-6f33f30d5177",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile:nth-child(2)",
+      "targets": [
+        ["css=.mobile:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bd7cc98-0ee2-40f8-af80-3878aed394b7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-menu-slide > #pg361332323802894182 > .wsite-menu-item",
+      "targets": [],
+      "value": "CONTACTO"
+    }, {
+      "id": "5eb2ef34-7e19-4988-950b-75524b29fa5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-trigger",
+      "targets": [
+        ["css=.nav-trigger", "css:finder"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33147f25-e702-43e3-81d5-89648826c2ec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GATOS ADOPTADOS",
+      "targets": [
+        ["linkText=GATOS ADOPTADOS", "linkText"],
+        ["css=.wsite-menu-slide > #pg205605649705399971 > .wsite-menu-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'GATOS ADOPTADOS')])[2]", "xpath:link"],
+        ["xpath=(//li[@id='pg205605649705399971']/a)[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/gatos-adoptados.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dc093af-b375-488a-82c3-357221a7299b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-btn",
+      "targets": [
+        ["css=.open-btn", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "598d331a-2f7e-4fcf-bde2-44761ab155a4",
+      "comment": "",
+      "command": "assertNotText",
+      "target": "css=.wsite-menu-slide > #pg217106074966217534 > .wsite-menu-item",
+      "targets": [],
+      "value": "NUEVA PÁGINA"
+    }, {
+      "id": "6539c65c-1f45-4adf-866a-9f5e07199f6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile:nth-child(3)",
+      "targets": [
+        ["css=.mobile:nth-child(3)", "css:finder"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50352a46-4e6e-4bfd-af42-dd2f217f272e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3fe7d7ff-277c-4011-9ab5-fbc9772e8d08",
+    "name": "TC-105 Entrar gatos adoptados mobile",
+    "commands": [{
+      "id": "b233cbbb-e3aa-42c3-a608-74cc5c58aa9e",
+      "comment": "",
+      "command": "open",
+      "target": "https://vallsgat.weebly.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0eeb29ea-63d1-4273-a12d-f3b5199ae2dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "360x640",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7a538d3-3eff-4edc-868f-4b672ec74df7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-btn",
+      "targets": [
+        ["css=.open-btn", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e293c43-f4f3-4bbb-b72e-9ddb5b4a1c48",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GATOS ADOPTADOS",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5615531a-1972-4148-80de-4fa9693d0c8a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.open-btn",
+      "targets": [
+        ["css=.open-btn", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d40420c-08c9-4b81-9ec4-0758808960a6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.wsite-menu-slide > #pg583348935660222005 > .wsite-menu-item",
+      "targets": [],
+      "value": "GATOS EN ADOPCIÓN"
+    }, {
+      "id": "c6ad827c-b6cd-4c7f-987b-abfad91621e5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1948d0b8-cc77-4c45-b118-8548224e578c",
+    "name": "vallsgat chrome",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["d255eabc-fe7e-4488-944b-005d2e6e2c60", "58a097b0-2a98-4aa7-b70f-49679622794c", "3f44d840-771c-4f02-bbaa-db639022e5f1", "ee1dbc09-f24d-44f0-aa1b-de781bcb15c8", "d251df33-a695-4eb3-9d12-2e56a9a9b3de", "3700abf0-c6c9-4778-9b2e-399a487ffe09", "e61651ad-1c09-4e2b-925f-333dd5edd0e8", "d4398e49-1bda-4732-aa75-9aea2bff69b3"]
+  }, {
+    "id": "0fa53a16-709b-4093-ab35-64a04bef7e3e",
+    "name": "Vallsgat mobile",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["d255eabc-fe7e-4488-944b-005d2e6e2c60", "19926fba-a7da-4717-a1e6-904d9f089448", "2d0b05a8-c786-4481-bb19-70249bd94c4a", "eb11cf91-3acb-4757-979a-eaa4f4b49519", "e4bb0c18-47a2-4a5d-afa2-079235496cb5", "677faf92-02ce-4981-ac97-de684279c255", "3fe7d7ff-277c-4011-9ab5-fbc9772e8d08"]
+  }],
+  "urls": ["https://vallsgat.weebly.com/"],
+  "plugins": []
+}
